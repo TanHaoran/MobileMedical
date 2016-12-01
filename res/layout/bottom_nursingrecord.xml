@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_tag_height"
+    android:background="@color/bottom_bg"
+    android:baselineAligned="true"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/patient_item_space_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_tab_temperaturepaper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_tab_bg"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_temperature"
+                android:layout_width="@dimen/bottommenu_img_height"
+                android:layout_height="@dimen/bottommenu_img_height"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/bottom_hllr_twd_n" />
+
+            <TextView
+                android:id="@+id/tv_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/bottommenu_text_margintop"
+                android:text="@string/temperature_paper"
+                android:textColor="@color/login_btn_bg_normal"
+                android:textSize="@dimen/bottommenu_tab_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_tab_bloodoxygen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_tab_bg"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_bloodoxygen"
+                android:layout_width="@dimen/bottommenu_img_height"
+                android:layout_height="@dimen/bottommenu_img_height"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/bottom_hllr_xy" />
+
+            <TextView
+                android:id="@+id/tv_bloodoxygen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/bottommenu_text_margintop"
+                android:text="@string/blood_oxygen"
+                android:textColor="@color/bottom_tab_text"
+                android:textSize="@dimen/bottommenu_tab_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_tab_bloodsuger"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_tab_bg"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_bloodsuger"
+                android:layout_width="@dimen/bottommenu_img_height"
+                android:layout_height="@dimen/bottommenu_img_height"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/bottom_hllr_xt" />
+
+            <TextView
+                android:id="@+id/tv_bloodsuger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/bottommenu_text_margintop"
+                android:text="@string/blood_suger"
+                android:textColor="@color/bottom_tab_text"
+                android:textSize="@dimen/bottommenu_tab_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_tab_bloodpressure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_tab_bg"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_bloodpressure"
+                android:layout_width="@dimen/bottommenu_img_height"
+                android:layout_height="@dimen/bottommenu_img_height"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/bottom_hllr_xy_09" />
+
+            <TextView
+                android:id="@+id/tv_bloodpressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/bottommenu_text_margintop"
+                android:text="@string/blood_pressure"
+                android:textColor="@color/bottom_tab_text"
+                android:textSize="@dimen/bottommenu_tab_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

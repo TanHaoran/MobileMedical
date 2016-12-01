@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nursing_by_bed_bg"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/patientinfo_select_height"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_bed"
+            android:layout_width="@dimen/patientinfo_select_bed_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/ll_leftpatient"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="+004"
+            android:textColor="@color/login_btn_bg_normal"
+            android:textSize="@dimen/patientinfo_select_text_size" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="@dimen/patientinfo_select_name_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_bed"
+            android:ellipsize="marquee"
+            android:gravity="center_horizontal|center_vertical"
+            android:singleLine="true"
+            android:text="张靓颖"
+            android:textColor="@color/homepage_conent_text"
+            android:textSize="@dimen/patientinfo_select_text_size" />
+
+
+        <TextView
+            android:id="@+id/tv_nursinglevel"
+            android:layout_width="@dimen/patientinfo_select_nursinglevel_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_name"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="II"
+            android:textColor="@color/homepage_conent_text"
+            android:textSize="@dimen/patientinfo_select_age_size" />
+
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="@dimen/patientinfo_select_age_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_nursinglevel"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="33岁"
+            android:textColor="@color/patient_item_sex_text"
+            android:textSize="@dimen/patientinfo_select_age_size" />
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="@dimen/patient_info_select_sex_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_sex"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="女"
+            android:textColor="@color/patient_item_sex_text"
+            android:textSize="@dimen/patientinfo_select_age_size" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_nursing_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:background="@color/transparent">
+
+        <com.thr.mobilemedical.com.jerry.roundindicator.view.NursingItemView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

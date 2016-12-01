@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:thr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_main"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.thr.mobilemedical.com.jerry.roundindicator.view.TitleBar
+        android:id="@+id/title_bar"
+        thr:rightVisible="false"
+        thr:leftImage="@drawable/top_fh"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        thr:titleText="@string/add_reminder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="75dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/new_reminder_lineHeight"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/new_reminder_leftWidth"
+                android:layout_height="wrap_content"
+                android:text="@string/pick_bed"
+                android:textColor="@color/patient_item_sex_text"
+                android:textSize="@dimen/new_reminder_textSize" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/tv_bed"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_reminder_rightHeight"
+                android:background="@drawable/round_new_reminder_edit"
+                android:lines="1"
+                android:paddingLeft="@dimen/new_reminder_editPadding"
+                android:paddingRight="@dimen/new_reminder_editPadding"
+                android:textColor="@color/patientinfo_base_item_right_part_text"
+                android:textSize="@dimen/new_reminder_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/new_reminder_lineHeight"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/new_reminder_leftWidth"
+                android:layout_height="wrap_content"
+                android:text="@string/reminder_item"
+                android:textColor="@color/patient_item_sex_text"
+                android:textSize="@dimen/new_reminder_textSize" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/tv_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_reminder_rightHeight"
+                android:background="@drawable/round_new_reminder_edit"
+                android:lines="1"
+                android:paddingLeft="@dimen/new_reminder_editPadding"
+                android:paddingRight="@dimen/new_reminder_editPadding"
+                android:textColor="@color/patientinfo_base_item_right_part_text"
+                android:textSize="@dimen/new_reminder_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/new_reminder_lineHeight"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/new_reminder_leftWidth"
+                android:layout_height="wrap_content"
+                android:text="@string/start_time"
+                android:textColor="@color/patient_item_sex_text"
+                android:textSize="@dimen/new_reminder_textSize" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/tv_start_time"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_reminder_rightHeight"
+                android:background="@drawable/round_new_reminder_edit"
+                android:lines="1"
+                android:paddingLeft="@dimen/new_reminder_editPadding"
+                android:paddingRight="@dimen/new_reminder_editPadding"
+                android:textColor="@color/patientinfo_base_item_right_part_text"
+                android:textSize="@dimen/new_reminder_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/new_reminder_lineHeight"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/new_reminder_leftWidth"
+                android:layout_height="wrap_content"
+                android:text="@string/end_time"
+                android:textColor="@color/patient_item_sex_text"
+                android:textSize="@dimen/new_reminder_textSize" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/tv_end_time"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_reminder_rightHeight"
+                android:background="@drawable/round_new_reminder_edit"
+                android:lines="1"
+                android:paddingLeft="@dimen/new_reminder_editPadding"
+                android:paddingRight="@dimen/new_reminder_editPadding"
+                android:textColor="@color/patientinfo_base_item_right_part_text"
+                android:textSize="@dimen/new_reminder_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/new_reminder_lineHeight"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/new_reminder_leftWidth"
+                android:layout_height="wrap_content"
+                android:text="@string/repeat_reminder"
+                android:textColor="@color/patient_item_sex_text"
+                android:textSize="@dimen/new_reminder_textSize" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/tv_mode"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_reminder_rightHeight"
+                android:background="@drawable/round_new_reminder_edit"
+                android:lines="1"
+                android:paddingLeft="@dimen/new_reminder_editPadding"
+                android:paddingRight="@dimen/new_reminder_editPadding"
+                android:textColor="@color/patientinfo_base_item_right_part_text"
+                android:textSize="@dimen/new_reminder_textSize" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_btn_layout_height"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_sure"
+            android:layout_width="@dimen/dialog_btn_width"
+            android:layout_height="@dimen/dialog_btn_height"
+            android:background="@drawable/btn_sure_corner_bg"
+            android:text="@string/ensure"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dialog_btn_text_size" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="@dimen/dialog_btn_width"
+            android:layout_height="@dimen/dialog_btn_height"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn_cancle_corner_bg"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dialog_btn_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

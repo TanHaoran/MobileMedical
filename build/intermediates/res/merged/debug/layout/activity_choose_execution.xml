@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:thr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.thr.mobilemedical.com.jerry.roundindicator.view.TitleBar
+        android:id="@+id/title_bar"
+        thr:leftImage="@drawable/top_fh"
+        thr:rightVisible="false"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        thr:titleText="@string/choose_execution" />
+
+    <LinearLayout
+        android:id="@+id/ll_drop_execute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/choose_execution_marginLeft"
+        android:layout_marginRight="@dimen/choose_execution_marginLeft"
+        android:layout_marginTop="@dimen/choose_execution_marginTop"
+        android:background="@drawable/choose_execution_item"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/choose_execution_marginTop"
+            android:src="@drawable/icon_jdzx_b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dropexecute"
+            android:textColor="@color/patientinfo_base_item_right_part_text"
+            android:textSize="@dimen/choose_execution_item_textSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_nursing_execute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/choose_execution_marginLeft"
+        android:layout_marginRight="@dimen/choose_execution_marginLeft"
+        android:layout_marginTop="@dimen/choose_execution_marginTop"
+        android:background="@drawable/choose_execution_item"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/choose_execution_marginTop"
+            android:src="@drawable/icon_hlzx_b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nursing_execute"
+            android:textColor="@color/patientinfo_base_item_right_part_text"
+            android:textSize="@dimen/choose_execution_item_textSize" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_nursing_patrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/choose_execution_marginLeft"
+        android:layout_marginRight="@dimen/choose_execution_marginLeft"
+        android:layout_marginTop="@dimen/choose_execution_marginTop"
+        android:background="@drawable/choose_execution_item"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/choose_execution_marginTop"
+            android:src="@drawable/icon_hlxs_b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nursing_patrol"
+            android:textColor="@color/patientinfo_base_item_right_part_text"
+            android:textSize="@dimen/choose_execution_item_textSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_reminder_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/choose_execution_marginLeft"
+        android:layout_marginRight="@dimen/choose_execution_marginLeft"
+        android:layout_marginTop="@dimen/choose_execution_marginTop"
+        android:background="@drawable/choose_execution_item"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/choose_execution_marginTop"
+            android:src="@drawable/icon_txsz_b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reminder_setting"
+            android:textColor="@color/patientinfo_base_item_right_part_text"
+            android:textSize="@dimen/choose_execution_item_textSize" />
+
+    </LinearLayout>
+
+</LinearLayout>

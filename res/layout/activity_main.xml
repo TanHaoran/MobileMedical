@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:thr="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical">
+
+    <com.thr.mobilemedical.com.jerry.roundindicator.view.TitleBar
+        android:id="@+id/title_bar"
+        thr:leftImage="@drawable/top_list"
+        thr:rightImage="@drawable/top_bh"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        thr:titleText="@string/homepage" />
+
+    <com.thr.mobilemedical.com.jerry.roundindicator.view.SelectorView
+        android:layout_marginTop="10dp"
+        android:id="@+id/select_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        thr:leftSelect="@string/by_bed"
+        thr:rightSelect="@string/by_item" />
+
+    <LinearLayout
+        android:id="@+id/ll_statistics"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/patientinfo_order_sum_text_height"
+        android:layout_marginLeft="@dimen/patientinfo_base_margin"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:gravity="center_vertical"
+            android:text="@string/orderexec_total"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="@dimen/patientinfo_order_sum_text_size" />
+
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/patientinfo_order_sum_text_marginleft"
+            android:layout_marginRight="@dimen/patientinfo_order_sum_text_marginleft"
+            android:gravity="center_vertical"
+            android:textColor="@color/patientinfo_selectbar_bg"
+            android:textSize="@dimen/patientinfo_order_sum_num_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/order_statistics"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="@dimen/patientinfo_order_sum_text_size" />
+
+        <TextView
+            android:id="@+id/tv_order"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/patientinfo_order_sum_text_marginleft"
+            android:layout_marginRight="@dimen/patientinfo_order_sum_text_marginleft"
+            android:gravity="center_vertical"
+            android:textColor="@color/patientinfo_selectbar_bg"
+            android:textSize="@dimen/patientinfo_order_sum_num_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/orderexec_executed"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="@dimen/patientinfo_order_sum_text_size" />
+
+        <TextView
+            android:id="@+id/tv_execute"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/patientinfo_order_sum_text_marginleft"
+            android:layout_marginRight="@dimen/patientinfo_order_sum_text_marginleft"
+            android:gravity="center_vertical"
+            android:textColor="@color/patientinfo_selectbar_bg"
+            android:textSize="@dimen/patientinfo_order_sum_num_text_size" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:padding="@dimen/patientinfo_base_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listview_by_bed"
+            android:dividerHeight="10dp"
+            android:divider="#f8f8f8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ListView
+            android:visibility="invisible"
+            android:id="@+id/listview_by_item"
+            android:dividerHeight="10dp"
+            android:divider="#f8f8f8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+</LinearLayout>

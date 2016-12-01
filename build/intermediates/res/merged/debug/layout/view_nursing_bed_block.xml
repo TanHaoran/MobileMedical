@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_bed"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="错误床号"
+            android:textColor="@color/patient_item_sex_text" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_bed"
+            android:text="错误姓名"
+            android:textColor="@color/patient_item_sex_text" />
+
+        <TextView
+            android:id="@+id/tv_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="错误次数"
+            android:textColor="@color/patient_item_sex_text" />
+
+    </RelativeLayout>
+
+    <View
+        android:background="@color/patient_item_space_bg"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_nursing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+
+</LinearLayout>

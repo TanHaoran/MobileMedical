@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nursingrecord_line_height"
+    android:layout_marginTop="@dimen/nursingrecord_item_margintop"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_item"
+        android:layout_width="@dimen/nursingrecord_item_width"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="@string/time"
+        android:textColor="@color/patientinfo_base_item_left_part_text"
+        android:textSize="@dimen/nursingrecord_textsize" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="@dimen/nursingrecord_edit_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/nursingrecord_edit_marginleft"
+        android:background="@drawable/setting_edit_bg"
+        android:gravity="center"
+        android:textColor="@color/patientinfo_base_item_right_part_text"
+        android:textSize="@dimen/nursingrecord_textsize" />
+
+</LinearLayout>

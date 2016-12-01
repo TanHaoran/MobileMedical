@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/popup_patient_item_padding"
+    android:paddingTop="@dimen/popup_patient_item_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/popup_patient_item_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/patientinfo_base_detail_item_margintop"
+            android:paddingLeft="@dimen/patientinfo_base_detail_item_margintop"
+            android:paddingTop="@dimen/patientinfo_base_detail_item_margintop" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/patientinfo_order_item_leftpart_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/order_name"
+                    android:textColor="@color/patientinfo_base_item_left_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_ordername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/patientinfo_base_detail_item_rightpart_marginleft"
+                    android:textColor="@color/patientinfo_base_item_right_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_usage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/patientinfo_base_detail_item_margintop"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/patientinfo_order_item_leftpart_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/order_usage"
+                    android:textColor="@color/patientinfo_base_item_left_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_orderusage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/patientinfo_base_detail_item_rightpart_marginleft"
+                    android:textColor="@color/patientinfo_base_item_right_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/patientinfo_base_detail_item_margintop"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/patientinfo_order_item_leftpart_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/order_type"
+                    android:textColor="@color/patientinfo_base_item_left_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_ordertype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/patientinfo_base_detail_item_rightpart_marginleft"
+                    android:textColor="@color/patientinfo_base_item_right_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/patientinfo_base_detail_item_margintop"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/patientinfo_order_item_leftpart_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/order_frequence"
+                    android:textColor="@color/patientinfo_base_item_left_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_orderfrequence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/patientinfo_base_detail_item_rightpart_marginleft"
+                    android:textColor="@color/patientinfo_base_item_right_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/patientinfo_base_detail_item_margintop"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/patientinfo_order_item_leftpart_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/order_time"
+                    android:textColor="@color/patientinfo_base_item_left_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_ordertime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/patientinfo_base_detail_item_rightpart_marginleft"
+                    android:textColor="@color/patientinfo_base_item_right_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_exetime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/patientinfo_base_detail_item_margintop"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="@dimen/patientinfo_order_item_leftpart_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/exe_time"
+                    android:textColor="@color/patientinfo_base_item_left_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_exetime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/patientinfo_base_detail_item_rightpart_marginleft"
+                    android:textColor="@color/patientinfo_base_item_right_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/patientinfo_order_item_rightpart_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/iv_state"
+                android:layout_width="@dimen/patientinfo_order_item_img_height"
+                android:layout_height="@dimen/patientinfo_order_item_img_height"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_launcher"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="正在执行"
+                android:textColor="@color/bottom_tab_text"
+                android:textSize="@dimen/patientinfo_order_item_exec_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

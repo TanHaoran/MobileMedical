@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/patientinfo_base_margin"
+        android:background="@drawable/patientinfo_base_block_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/nursingrecord_temperature_form_head_height"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp" >
+
+            <TextView
+                android:layout_width="@dimen/blood_bed_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/nursingrecord_bed"
+                android:textColor="@color/bottom_tab_text"
+                android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+            <TextView
+                android:layout_width="@dimen/blood_name_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/nursingrecord_name"
+                android:textColor="@color/bottom_tab_text"
+                android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+            <TextView
+                android:layout_width="@dimen/blood_times_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/times_text"
+                android:textColor="@color/bottom_tab_text"
+                android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+            <TextView
+                android:layout_width="@dimen/blood_executed_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/executed_text"
+                android:textColor="@color/bottom_tab_text"
+                android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+            <TextView
+                android:layout_width="@dimen/blood_state_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/state_text"
+                android:textColor="@color/bottom_tab_text"
+                android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_bloodoxygen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/patientinfo_base_detail_bg"
+            android:divider="@color/patient_item_space_bg"
+            android:dividerHeight="1dp"
+            android:padding="1dp" />
+    </LinearLayout>
+
+</LinearLayout>

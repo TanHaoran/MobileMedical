@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:thr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_main"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.thr.mobilemedical.com.jerry.roundindicator.view.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        thr:rightImage="@drawable/icon_write"
+        thr:titleText="@string/reminder_setting" />
+
+    <LinearLayout
+        android:id="@+id/ll_add_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/choose_execution_marginLeft"
+        android:layout_marginRight="@dimen/choose_execution_marginLeft"
+        android:layout_marginTop="@dimen/choose_execution_marginTop"
+        android:background="@drawable/choose_execution_item"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/choose_execution_marginTop"
+            android:src="@drawable/add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_reminder_setting"
+            android:textColor="@color/patientinfo_base_item_right_part_text"
+            android:textSize="@dimen/choose_execution_item_textSize" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/list_view"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/choose_execution_marginTop" />
+
+</LinearLayout>

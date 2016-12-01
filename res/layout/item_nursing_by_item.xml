@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nursing_by_bed_bg"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="错误出现"
+        android:textColor="@color/homepage_conent_text"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/patient_item_space_bg" />
+
+    <LinearLayout
+        android:id="@+id/ll_bed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+
+</LinearLayout>

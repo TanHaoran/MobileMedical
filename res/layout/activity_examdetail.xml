@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:thr="http://schemas.android.com/apk/res/com.thr.mobilemedical"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/patientinfo_bg"
+    android:orientation="vertical" >
+
+    <com.thr.mobilemedical.com.jerry.roundindicator.view.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        thr:titleText="@string/nursinglist" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/patientinfo_base_margin" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/patientinfo_base_block_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/nursingrecord_temperature_form_head_height"
+                android:orientation="horizontal"
+                android:paddingLeft="6dp"
+                android:scrollbars="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/exam_item_width"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="@string/item"
+                    android:textColor="@color/bottom_tab_text"
+                    android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+                <TextView
+                    android:layout_width="@dimen/exam_result_width"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/result"
+                    android:textColor="@color/bottom_tab_text"
+                    android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+                <TextView
+                    android:layout_width="@dimen/exam_hint_width"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/bottom_tab_text"
+                    android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+                <TextView
+                    android:layout_width="@dimen/exam_range_width"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/range"
+                    android:textColor="@color/bottom_tab_text"
+                    android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+                <TextView
+                    android:layout_width="@dimen/exam_unit_width"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/unit"
+                    android:textColor="@color/bottom_tab_text"
+                    android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv_examdetaillist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/patientinfo_base_detail_bg"
+                android:divider="@color/patient_item_space_bg"
+                android:dividerHeight="1dp"
+                android:padding="1dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

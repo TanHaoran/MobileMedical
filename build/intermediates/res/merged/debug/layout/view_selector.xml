@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/patientinfo_select_height"
+    android:layout_marginLeft="@dimen/patientinfo_base_margin"
+    android:layout_marginRight="@dimen/patientinfo_base_margin"
+    android:background="@drawable/patientinfo_order_longtempbar_bg"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_left"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/login_btn_bg_normal"
+            android:textSize="@dimen/patientinfo_select_text_size" />
+
+        <View
+            android:id="@+id/v_left"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/patientinfo_order_select_line_marginleft"
+            android:layout_marginRight="@dimen/patientinfo_order_select_line_marginleft"
+            android:background="@color/login_btn_bg_normal" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/patient_item_space_bg" />
+
+    <LinearLayout
+        android:id="@+id/ll_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="@dimen/patientinfo_select_text_size" />
+
+        <View
+            android:id="@+id/v_right"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/patientinfo_order_select_line_marginleft"
+            android:layout_marginRight="@dimen/patientinfo_order_select_line_marginleft"
+            android:background="@color/login_btn_bg_normal"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>

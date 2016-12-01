@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_tag_height"
+    android:background="@color/bottom_bg"
+    android:baselineAligned="true"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/patient_item_space_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_tab_nursingpatrol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_tab_bg"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_nursingpatrol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/bottom_hlxs_hlxs_n" />
+
+            <TextView
+                android:id="@+id/tv_nursingpatrol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/bottommenu_text_margintop"
+                android:text="@string/nursing_patrol"
+                android:textColor="@color/login_btn_bg_normal"
+                android:textSize="@dimen/bottommenu_tab_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_tab_droppatrol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_tab_bg"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_droppatrol"
+                android:layout_width="@dimen/bottommenu_img_height"
+                android:layout_height="@dimen/bottommenu_img_height"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/bottom_hlxs_jdxs" />
+
+            <TextView
+                android:id="@+id/tv_droppatrol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/bottommenu_text_margintop"
+                android:text="@string/droppatrol"
+                android:textColor="@color/bottom_tab_text"
+                android:textSize="@dimen/bottommenu_tab_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

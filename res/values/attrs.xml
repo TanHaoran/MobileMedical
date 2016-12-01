@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="TitleBar">
+        <attr name="titleText" format="string" />
+        <attr name="leftText" format="string" />
+        <attr name="rightText" format="string" />
+        <attr name="leftImage" format="reference" />
+        <attr name="rightImage" format="reference" />
+        <attr name="leftVisible" format="boolean"/>
+        <attr name="rightVisible" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightMargin" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectorView">
+        <attr name="leftSelect" format="string"/>
+        <attr name="rightSelect" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckView">
+        <attr name="isCheck" format="boolean"/>
+    </declare-styleable>
+
+</resources>

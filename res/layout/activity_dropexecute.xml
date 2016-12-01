@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:thr="http://schemas.android.com/apk/res/com.thr.mobilemedical"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.thr.mobilemedical.com.jerry.roundindicator.view.TitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_height"
+        thr:titleText="@string/dropexecute" />
+
+    <include
+        android:id="@+id/in_topbar"
+        layout="@layout/view_patient_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_statistics"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/patientinfo_order_sum_text_height"
+        android:layout_marginLeft="@dimen/patientinfo_base_margin"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:gravity="center_vertical"
+            android:text="@string/orderexec_total"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="@dimen/patientinfo_order_sum_text_size" />
+
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/patientinfo_order_sum_text_marginleft"
+            android:layout_marginRight="@dimen/patientinfo_order_sum_text_marginleft"
+            android:gravity="center_vertical"
+            android:textColor="@color/patientinfo_selectbar_bg"
+            android:textSize="@dimen/patientinfo_order_sum_num_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/orderexec_executed"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="@dimen/patientinfo_order_sum_text_size" />
+
+        <TextView
+            android:id="@+id/tv_executed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/patientinfo_order_sum_text_marginleft"
+            android:layout_marginRight="@dimen/patientinfo_order_sum_text_marginleft"
+            android:gravity="center_vertical"
+            android:textColor="@color/patientinfo_selectbar_bg"
+            android:textSize="@dimen/patientinfo_order_sum_num_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/orderexec_noexecuted"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="@dimen/patientinfo_order_sum_text_size" />
+
+        <TextView
+            android:id="@+id/tv_notexecute"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/patientinfo_order_sum_text_marginleft"
+            android:layout_marginRight="@dimen/patientinfo_order_sum_text_marginleft"
+            android:gravity="center_vertical"
+            android:textColor="@color/patientinfo_selectbar_bg"
+            android:textSize="@dimen/patientinfo_order_sum_num_text_size" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/patientinfo_base_margin"
+        android:layout_marginLeft="@dimen/patientinfo_base_margin"
+        android:layout_marginRight="@dimen/patientinfo_base_margin" />
+
+</LinearLayout>

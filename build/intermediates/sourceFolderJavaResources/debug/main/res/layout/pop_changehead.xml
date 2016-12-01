@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/translucent" >
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/changehead_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/changehead_btn_height"
+            android:layout_marginLeft="@dimen/changehead_btn_marginleft"
+            android:layout_marginRight="@dimen/changehead_btn_marginleft"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_changehead_bg"
+            android:text="@string/photo"
+            android:textColor="@color/select_user"
+            android:textSize="@dimen/changehead_btn_textsize" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/changehead_btn_height"
+            android:layout_marginLeft="@dimen/changehead_btn_marginleft"
+            android:layout_marginRight="@dimen/changehead_btn_marginleft"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_changehead_bg"
+            android:text="@string/picture"
+            android:textColor="@color/select_user"
+            android:textSize="@dimen/changehead_btn_textsize" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/changehead_btn_height"
+            android:layout_marginLeft="@dimen/changehead_btn_marginleft"
+            android:layout_marginRight="@dimen/changehead_btn_marginleft"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_changehead_cancle_bg"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/changehead_btn_textsize" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_title_height"
+        android:background="@color/patientinfo_bg"
+        android:gravity="center"
+        android:text="@string/service_config"
+        android:textColor="@color/bottom_tab_text"
+        android:textSize="@dimen/dialog_title_textsize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/patient_item_space_bg" />
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_content_paddingtop"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/service_ip"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_add"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_item_height"
+            android:layout_margin="20dp"
+            android:background="@drawable/setting_edit_bg"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="16sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialog_content_paddingtop"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/service_nsis_ip"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_nsis"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_item_height"
+            android:layout_margin="20dp"
+            android:background="@drawable/setting_edit_bg"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/bottom_tab_text"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/patient_item_space_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_btn_layout_height"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_sure"
+            android:layout_width="@dimen/dialog_btn_width"
+            android:layout_height="@dimen/dialog_btn_height"
+            android:background="@drawable/btn_sure_corner_bg"
+            android:text="@string/ensure"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dialog_btn_text_size" />
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="@dimen/dialog_btn_width"
+            android:layout_height="@dimen/dialog_btn_height"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn_cancle_corner_bg"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dialog_btn_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<resources>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="translucent">#80000000</color>
+
+    <!-- 底布菜单 -->
+    <color name="bottom_bg">#fff</color>
+    <color name="bottom_tab_text">#343434</color>
+    <color name="bottom_tab_press">#e5e5e5</color>
+
+    <!-- 登陆 -->
+    <color name="login_logo_text">#d3d8eb</color>
+    <color name="login_copyright_text">#989898</color>
+    <color name="login_btn_bg_normal">#08ace9</color>
+    <color name="login_btn_bg_press">#4F94CD</color>
+    <color name="edit_text_bg_normal">#444a64</color>
+    <color name="edit_text_bg_focus">#08ace9</color>
+    <color name="edit_text_hint">#d3d2d8</color>
+    <color name="select_user">#505050</color>
+    <color name="other_user">#999999</color>
+
+    <!-- 侧滑菜单 -->
+    <color name="slidingmenu_bg">#444a64</color>
+    <color name="slidingmenu_username_office">#b1b2b7</color>
+    <color name="slidingmenu_space_line">#4f5673</color>
+    <color name="slidingmenu_text_select">#08ace9</color>
+
+    <!-- 主页 -->
+    <color name="homepage_tag_text_bg">#e5e5e5</color>
+    <color name="homepage_conent_text">#333333</color>
+    <color name="homepage_number_text">#f85605</color>
+    <color name="infocenter_bed_text">#bcbcbc</color>
+    <color name="infocenter_people_text">#bbbbbb</color>
+    <color name="infocenter_desc_text">#999999</color>
+
+    <!-- 病患列表弹出框 -->
+    <color name="patient_item_space_bg">#dfdfdf</color>
+    <color name="patient_item_sex_text">#666666</color>
+    <color name="patient_level_special">#fe6a6a</color>
+    <color name="patient_level_one">#fe779f</color>
+    <color name="patient_level_two">#08ace9</color>
+
+    <!-- 标题栏 -->
+    <color name="titlebar_bg">#444a64</color>
+
+    <!-- 病患信息 -->
+    <color name="patientinfo_bg">#f8f8f8</color>
+    <color name="patientinfo_selectbar_bg">#fa5505</color>
+    <color name="patientinfo_selectbar_bg_press">#fa8e5c</color>
+    <color name="patientinfo_base_item_leftpart_text">#666666</color>
+    <color name="patientinfo_base_item_rightpart_text">#333333</color>
+
+</resources>

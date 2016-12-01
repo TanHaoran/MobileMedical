@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/homepage_content_text_height"
+        android:background="@color/white"
+        android:padding="@dimen/homepage_tag_text_paddingleft" >
+
+        <TextView
+            android:id="@+id/tv_bedno"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/homepage_infocenter_bedno_height"
+            android:layout_centerVertical="true"
+            android:background="@drawable/infocenter_bedno_bg"
+            android:gravity="center"
+            android:minWidth="@dimen/homepage_infocenter_bedno_minwidth"
+            android:paddingLeft="@dimen/homepage_infocenter_bedno_paddingleft"
+            android:paddingRight="@dimen/homepage_infocenter_bedno_paddingleft"
+            android:textColor="@color/white"
+            android:textSize="@dimen/homepage_infocenter_bedno_text_size" />
+
+        <TextView
+            android:id="@+id/tv_bed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/tv_bedno"
+            android:text="@string/bed"
+            android:textColor="@color/infocenter_bed_text"
+            android:textSize="@dimen/homepage_people_text_size" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_bed"
+            android:textColor="@color/homepage_conent_text"
+            android:textSize="@dimen/homepage_tag_text_size" />
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="22dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/iv_icon"
+            android:textColor="@color/infocenter_desc_text"
+            android:textSize="@dimen/homepage_tag_text_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/homepage_tag_text_bg" />
+
+</LinearLayout>

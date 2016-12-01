@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_marginLeft="6dp"
+    android:background="@drawable/nursing_by_bed_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_bed"
+            android:layout_width="@dimen/patientinfo_select_bed_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/ll_leftpatient"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="+004"
+            android:textColor="@color/login_btn_bg_normal"
+            android:textSize="@dimen/patientinfo_select_text_size" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="@dimen/patientinfo_select_name_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_bed"
+            android:ellipsize="marquee"
+            android:gravity="center_horizontal|center_vertical"
+            android:singleLine="true"
+            android:text="张靓颖"
+            android:textColor="@color/homepage_conent_text"
+            android:textSize="@dimen/patientinfo_select_text_size" />
+
+
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="@dimen/patientinfo_select_nursinglevel_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_name"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="II"
+            android:textColor="@color/homepage_conent_text"
+            android:textSize="@dimen/patientinfo_select_age_size" />
+
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="@dimen/patientinfo_select_age_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_nursinglevel"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="女"
+            android:textColor="@color/patient_item_sex_text"
+            android:textSize="@dimen/patientinfo_select_age_size" />
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="@dimen/patient_info_select_sex_width"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_sex"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="23"
+            android:textColor="@color/patient_item_sex_text"
+            android:textSize="@dimen/patientinfo_select_age_size" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/patient_item_space_bg" />
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:id="@+id/ll_nursing_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@id/tv_content"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="内容"
+            android:textColor="@color/homepage_conent_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_toRightOf="@id/tv_content"
+            android:id="@id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间"
+            android:textColor="@color/homepage_conent_text"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:id="@+id/iv_delete"
+            android:src="@drawable/icon_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/iv_delete"
+            android:id="@+id/iv_edit"
+            android:src="@drawable/icon_editor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

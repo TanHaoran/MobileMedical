@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\progress_loading_image_02.png",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\drawable-mdpi\\progress_loading_image_02.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\progress_loading_image_01.png",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\drawable-mdpi\\progress_loading_image_01.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

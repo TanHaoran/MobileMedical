@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\anim\\pop_change_in.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\anim\\pop_change_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\anim\\leftmenu_in.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\anim\\leftmenu_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\anim\\pop_change_out.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\anim\\pop_change_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\anim\\pop_patient_in.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\anim\\pop_patient_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\anim\\pop_patient_out.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\anim\\pop_patient_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\anim\\leftmenu_out.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\anim\\leftmenu_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\anim\\progress_dialog_loading_frame.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\anim\\progress_dialog_loading_frame.xml"
+    }
+]

@@ -1,0 +1,298 @@
+[
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\pop_selection.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\pop_selection.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bloodsuger.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\fragment_bloodsuger.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_exam.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\fragment_exam.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_config.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\dialog_config.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dropdetail.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_dropdetail.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_order.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_order.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_nursingpatrol.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\bottom_nursingpatrol.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursingrecord_check.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursingrecord_check.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_examdetail.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_examdetail.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursingrecord_selectandedit.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursingrecord_selectandedit.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nursingpatrol.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_nursingpatrol.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\pop_speed.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\pop_speed.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bloodoxygen.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\fragment_bloodoxygen.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\view_nursing_item_line.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\view_nursing_item_line.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursingrecord.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursingrecord.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_temperature.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_temperature.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_patientinfo.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_patientinfo.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_reminder.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_new_reminder.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_infocenter.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_infocenter.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\view_check_view.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\view_check_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bloodpressure.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\fragment_bloodpressure.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_baseorder.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_baseorder.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nursinglist.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_nursinglist.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_nursingpatrol.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\fragment_nursingpatrol.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_blood.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_blood.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursingpatrol.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursingpatrol.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_examdetail.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_examdetail.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_droppatrol.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\fragment_droppatrol.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursing_by_bed.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursing_by_bed.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dropexecute.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_dropexecute.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cost.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\fragment_cost.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursingrecord_edit.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursingrecord_edit.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_order.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\fragment_order.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_exam_child.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_exam_child.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nursingrecord.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_nursingrecord.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\pop_changehead.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\pop_changehead.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursing_item.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursing_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\view_selector.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\view_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursingrecord_select.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursingrecord_select.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_reminder.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_reminder.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_drop.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_drop.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_nursingrecord.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\bottom_nursingrecord.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\pop_time.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\pop_time.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bloodoxygendetail.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_bloodoxygendetail.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\pop_patient_list.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\pop_patient_list.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_patientinfo.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\bottom_patientinfo.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_execution.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_choose_execution.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_alert.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\dialog_alert.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\view_nursing_bed_block.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\view_nursing_bed_block.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursingpaper.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursingpaper.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\view_titlebar.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\view_titlebar.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_droppatrol.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_droppatrol.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_exam_group.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_exam_group.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reminder_setting.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_reminder_setting.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bloodpressuredetail.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_bloodpressuredetail.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\pop_number.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\pop_number.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_patient.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_patient.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_temperaturepager.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\fragment_temperaturepager.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_base.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\fragment_base.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bloodsugerdetail.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_bloodsugerdetail.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\activity_temperaturedetail.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\activity_temperaturedetail.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\view_menu.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\view_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\view_nursingrecord_text.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\view_nursingrecord_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\view_patient_bar.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\view_patient_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_warning.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\dialog_warning.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursingrecord_pressure.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursingrecord_pressure.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\item_nursing_by_item.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\item_nursing_by_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\view_logout_text.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\view_logout_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidProject\\MyApplication\\MobileMedical\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_office.xml",
+        "source": "E:\\AndroidProject\\MyApplication\\MobileMedical\\res\\layout\\dialog_office.xml"
+    }
+]

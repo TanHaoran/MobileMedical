@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thr.mobilemedical"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取设备信息 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait" >
+        <activity
+            android:name="com.thr.mobilemedical.activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thr.mobilemedical.activity.MainActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.thr.mobilemedical.activity.PatientinfoActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.thr.mobilemedical.activity.NursingrecordActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.thr.mobilemedical.activity.DropexecuteActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.thr.mobilemedical.activity.NursinglistActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.thr.mobilemedical.activity.NursingpatrolActivity"
+            android:launchMode="singleTop" />
+        <activity android:name="com.thr.mobilemedical.activity.SettingAcitivity" />
+        <activity android:name="com.thr.mobilemedical.activity.TemperaturedetailActivity" />
+        <activity android:name="com.thr.mobilemedical.activity.BloodoxygendetailActivity" />
+        <activity android:name="com.thr.mobilemedical.activity.BloodsugerdetailActivity" />
+        <activity android:name="com.thr.mobilemedical.activity.BloodpressuredetailActivity" />
+        <activity android:name="com.thr.mobilemedical.activity.ExamDetailActivity" />
+        <activity android:name="com.thr.mobilemedical.activity.DropdetailActivity" />
+        <activity android:name="com.thr.mobilemedical.activity.HandleActivity" />
+        <activity android:name="com.thr.mobilemedical.activity.OrallyActivity" />
+        <activity android:name="com.thr.mobilemedical.activity.ChooseExecutionActivity" />
+        <activity android:name="com.thr.mobilemedical.activity.ReminderSettingActivity" />
+        <activity android:name="com.thr.mobilemedical.activity.NewReminderActivity" />
+    </application>
+
+</manifest>

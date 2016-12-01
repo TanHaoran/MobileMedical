@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_layout"
+    android:paddingBottom="@dimen/popup_patient_item_padding"
+    android:paddingTop="@dimen/popup_patient_item_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/popup_patient_item_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/patientinfo_base_detail_item_margintop"
+            android:paddingLeft="@dimen/patientinfo_base_detail_item_margintop"
+            android:paddingTop="@dimen/patientinfo_base_detail_item_margintop" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/patientinfo_order_item_leftpart_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/patrol_start_time"
+                    android:textColor="@color/patientinfo_base_item_left_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_starttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/patientinfo_base_detail_item_rightpart_marginleft"
+                    android:text="+004"
+                    android:textColor="@color/patientinfo_base_item_right_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/patientinfo_base_detail_item_margintop"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/patientinfo_order_item_leftpart_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/patrol_content"
+                    android:textColor="@color/patientinfo_base_item_left_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/patientinfo_base_detail_item_rightpart_marginleft"
+                    android:maxLines="3"
+                    android:text="+004"
+                    android:textColor="@color/patientinfo_base_item_right_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/patientinfo_base_detail_item_margintop"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/patientinfo_order_item_leftpart_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/patrol_drop_speed"
+                    android:textColor="@color/patientinfo_base_item_left_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_dropspeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/patientinfo_base_detail_item_rightpart_marginleft"
+                    android:text="+004"
+                    android:textColor="@color/patientinfo_base_item_right_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/patientinfo_base_detail_item_margintop"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/patientinfo_order_item_leftpart_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/patrol_time"
+                    android:textColor="@color/patientinfo_base_item_left_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+
+                <TextView
+                    android:id="@+id/tv_patroltime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/patientinfo_base_detail_item_rightpart_marginleft"
+                    android:text="+004"
+                    android:textColor="@color/patientinfo_base_item_right_part_text"
+                    android:textSize="@dimen/patientinfo_base_detail_item_textsize" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

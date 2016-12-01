@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nursingrecord_temperature_form_head_height"
+    android:layout_marginLeft="6dp"
+    android:background="@color/transparent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_bed"
+        android:layout_width="@dimen/blood_bed_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/nursingrecord_bed"
+        android:textColor="@color/bottom_tab_text"
+        android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="@dimen/blood_name_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/nursingrecord_name"
+        android:textColor="@color/patient_item_sex_text"
+        android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+    <TextView
+        android:id="@+id/tv_totaltimes"
+        android:layout_width="@dimen/blood_times_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/times_text"
+        android:textColor="@color/bottom_tab_text"
+        android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+    <TextView
+        android:id="@+id/tv_exetimes"
+        android:layout_width="@dimen/blood_executed_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/executed_text"
+        android:textColor="@color/bottom_tab_text"
+        android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+    <ImageView
+        android:id="@+id/iv_state"
+        android:layout_width="@dimen/blood_state_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_yzx"
+        android:text="@string/state_text"
+        android:textColor="@color/bottom_tab_text"
+        android:textSize="@dimen/nursingrecord_temperature_form_head_textsize" />
+
+    <ImageView
+        android:id="@+id/iv_arrowallpatient"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/arrow" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/patientinfo_bg"
+    android:layout_height="@dimen/patientinfo_exam_group_height"
+    android:padding="@dimen/patientinfo_exam_item_padding" >
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/login_btn_bg_normal"
+        android:textSize="@dimen/patientinfo_exam_item_textsize" />
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tv_date"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/patientinfo_selectbar_bg"
+        android:textSize="@dimen/patientinfo_exam_item_num_textsize" />
+
+</RelativeLayout>
